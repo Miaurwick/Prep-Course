@@ -1,0 +1,52 @@
+Variables: Las variables son aquellas que utilizamos para poder encacillar nuestro codigo y asi poder utilizarlo en casi cualquier linea de codigo
+para poner en ejemplo una variable seria algo asi: (Var Nombre = "Mia.") donde "Nombre" es el nombre que asignamos a nuestra avriable o recipiente
+el cual tiene que poseer/contener un contenido que en este caso es "Mia." pero puede ser casi culquiero cosa.
+
+Strings: Las Strings son todas aquellas lineas de codgio que pueden ser tomadascomoun texto y no como un codigo para poder entenderlo mejor solo ob-
+serva el siguiente ejemplo: (codigo)---> Var Nombre = Mia. (Como la palabra "Mia" no tiene comillas significa que es una variable).
+(String) ---> Var Nombre = "Mia" (En este caso como la palabra "Mia" si posee comillas cuenta como un "string" o "texto" en español
+(Function) <--- Esto es codigo / ("Function")  <--- Esto es una linea de texto.
+
+Return: Return es una palabra reservada la cual su funcion es de "DEVOLVER" lo que la "Function" nos arroje, esta nos permite poder sacar un resultado
+de la "Function" o "Funcion" en español fuera de esta ya que las funciones actuan como "Ecosistemas cerrados" es decir que todo lo creado en las Function
+queda ahi  y para nosotros poder sacar ese resultado hay que usar la palabra resevada "RETURN" con este ejemplo podras entender mejor:
+function Numero(){
+ Var Numero1 = 1;
+} 
+Numero() // Undefind
+
+Hay una forma de llamar la funcion "Numero" que seria: Numero(); pero esto nos dara "Undefind" puesto que ahi no hay nada (es decir esta vacio como ves en
+el parentesis posterior a esta) y conla forma "Return" podremos extraer el valor de "Numero1" fuera de esta ya que no podremos hacer Numero1(); ya que esta no es una
+funcion sino una variable creada dentro de esta.
+usando return podremos sacar todo lo que produce la function que este caso posee la variable Numero1.
+
+function Numero(){
+ Var Numero1 = 1;
+ Return Numero1
+}
+Numero() // 1
+
+Declaracion if: Es un si o no basicamente, if significa "Si" y contiene una estructura basica:
+
+ If (Numero1 > 1){
+  Return 'Verdadero';
+ } else{
+  Return 'Falso';
+ }
+ 
+Como se puede apreciar son CONDICIONES si haces esto se cumple x condicion pero si no cumples x condicion no ocurre esa x condicion, esto se maneja con un "True" O "False"
+Funciona con operadores de condicion como (<) que es menor que. (>) que es mayor que. (!=) que es distinto a. (===) que es comparacion. (||) que es O, es decir que dara
+true si esto ocurre O esto.
+
+Valores Booleanos: Son basicamente "TRUE"(Verdadero) o "FALSE"(Falso) y se usan en las condiciones como for,switch,if, if else.
+son aquellas que se usan en ocaciones como : Si 2 es mayor que (>) 3 nos devuelve Verddero y si no nos devuelve Falso, also mas o menos asi en codigo:
+3 > 2 // true
+3 < 2 // false
+y en condiciones como if:
+if (3 > 2){
+ Return 'Verdadero'
+} else {
+ Return 'falso'
+}
+
+si 3 es mayor a 2 nos dara verdadero pero si no nos dara falso.
