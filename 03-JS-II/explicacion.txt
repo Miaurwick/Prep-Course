@@ -1,0 +1,5 @@
+For: Estos funcionan para ejecutar acciones especificas un numero especifico de veces 
+&& : es usada para continuar un ciclo en condiciones si esta se comple y la otra tambien es verdad
+es decir si ambas son true y true ( si esta es verdad y esta es verdad )
+ || : es usado en momento donde se necesita que una u otra condicion sea verdadera
+! : para negar 
