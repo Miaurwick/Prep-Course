@@ -1,0 +1,1 @@
+Array: las arrays son variables vaias las cuales pueden almacenar una cantidad indefinida de datos ya sea en booleano, numero, string o incluso otras arrays.
