@@ -216,7 +216,7 @@ function breakStatement(numero) {
   // Tu código:
    var nuevoArray = [];
    for (var i = 0; i < 10; i++ ) {
-    numero =numero + 2;
+    numero = numero + 2;
     nuevoArray.push(numero)
     if (i === numero ) {
       return "Se interrumpió la ejecución"

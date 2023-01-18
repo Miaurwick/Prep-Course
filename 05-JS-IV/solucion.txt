@@ -1,0 +1,5 @@
+Objetos: Los objetos son propieddes independientes que tienen adentro propiedades, son como arrays cajas vacias con posibilidades de ser llenadas una determinada cantidad de veces 
+Propiedades:Una propeidad es una junta de clave valor o un una etiqueta y su contenido
+Metodos: son las funciones solo que son llamadas asi cuando son usadas dentro de objetos
+Bucle for in: Ete realiza un recorrido a tu codigo( propiedad )
+Notacion de puntos vs notacion corchetes: dot notation es literal extemo y bracket notation no 
