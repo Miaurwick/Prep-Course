@@ -1,0 +1,2 @@
+prototype: prototype es na referencia a un objeto, es algo interno que poseen todas las variables, clases, y en general en javaScript
+Constructor de clases: es aquello que se usa para crear los moldes a base de propiedades y objetos.
