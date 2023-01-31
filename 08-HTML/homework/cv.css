@@ -1,0 +1,39 @@
+h1{
+    font-size: 65px;
+    justify-content: center;
+    display: flex;
+}
+
+#descripcion {
+    font-size: 25px;
+}
+
+#educacion {
+    font-size: 25px;
+}
+
+#skills {
+    font-size: 25px;
+}
+
+#foto {
+    font-size: 25px;
+}
+
+#fotoP {
+    width: 200px;
+    height: 200px;
+}
+
+#hobbies {
+    font-size: 25px;
+}
+
+#expectativas {
+    font-size: 25px;
+}
+
+
+#h3 {
+    color:red
+}
